@@ -3,7 +3,7 @@
 Plugin Name: BAW Easy Invitation Codes
 Plugin URI: http://boiteaweb.fr/eic
 Description: Visitors have to enter an invitation code to register on your blog. The easy way!
-Version: 1.0
+Version: 1.0.1
 Author: Juliobox
 Author URI: http://boiteaweb.fr
 License: GPLv2

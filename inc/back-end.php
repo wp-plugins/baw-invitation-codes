@@ -271,7 +271,7 @@ function baweic_list_codes()
 		<form action="<?php echo admin_url( 'admin.php' ); ?>">
 		<p class="search-box">
 			<label class="screen-reader-text" for="<?php echo $input_id ?>"><?php echo $text; ?>:</label>
-			<input type="search" id="search-text" name="s" value="<?php echo !empty( $_GET['s'] ) ? esc_attr( $_GET['s'] ) : ''; ?>" />
+			<input type="search" id="search-text" name="s" value="<?php _admin_search_query(); ?>" />
 			<input type="hidden" id="page" name="page" value="baweic_list_codes" />
 			<?php submit_button( __( 'Search codes', 'baweic' ), 'button', false, false, array('id' => 'search-submit') ); ?>
 		</p>

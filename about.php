@@ -24,7 +24,9 @@ if ( !defined( 'ABSPATH' ) )
 	<h3 class="hndle" style="padding:5px;"><span>Check this plugins too</span></h3>
 	<div class="inside">
 		<ul>
-			<li><a href="http://baw.li/pvc">BAW Post Views Count</a> - <em>Count views on your posts, pages, CPT. Widget, shortcode included. More than 4k DL!</em></li>
+			<li><a href="http://baw.li/pvc">BAW Post Views Count</a> - <em>Count views on your posts, pages, CPT. Widget, shortcode included. More than 5000 DL!</em></li>
+			<li><a href="http://baw.li/mrp">BAW Manual Related Posts</a> - <em>Manually choose which posts will be linked to every posts, out auto selection, out random selection, out fake smart selection.!</em></li>
+			<li><a href="http://baw.li/eic">BAW Easy Invitation Codes</a> - <em>Visitors have to enter an invitation code to register on your blog. The easy way!</em></li>
 			<li><a href="http://baw.li/msl">BAW More Secure Login</a> - <em>Add a second authentication layer to your WordPress site.</em></li>
 			<li><a href="http://baw.li/llm">BAW Login Logout Menu</a> - <em>Add real login and log out links into our WordPress menus.</em></li>
 			<li><a href="http://baw.li/modorole">BAW Moderator Role</a> - <em>Add the missing "Comments Moderator" role into your Blog.</em></li>

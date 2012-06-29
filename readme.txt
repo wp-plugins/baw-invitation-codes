@@ -36,7 +36,10 @@ Nothing.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* 29/06/2012
+* Fix a link bug for front end side, thakns to mborin (wp member)
 
+= 1.0 =
 * 11/06/2012
 * First Release
