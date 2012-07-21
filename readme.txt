@@ -2,7 +2,7 @@
 Contributors: juliobox
 Tags: code, invitation, guest, register
 Requires at least: 3.0
-Tested up to: 3.4
+Tested up to: 3.4.1
 Stable tag: trunk
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RB7646G6NVPWU
 License: GPLv2
@@ -36,10 +36,14 @@ Nothing.
 
 == Changelog ==
 
+= 1.0.2 =
+* 22 jul 2012
+* Bug fix : when a registration was not correct, the code was used! Thanks to davito18 pointing me that!
+
 = 1.0.1 =
-* 29/06/2012
+* 29 jun 2012
 * Fix a link bug for front end side, thakns to mborin (wp member)
 
 = 1.0 =
-* 11/06/2012
+* 11 jun 2012
 * First Release

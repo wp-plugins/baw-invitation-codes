@@ -17,6 +17,8 @@ add_action( 'register_form', 'baweic_register_form_add_field' );
 
 function baweic_registration_errors( $errors, $sanitized_user_login, $user_email )
 {
+	if( count( $errors->errors )>0 )
+		return $errors;
 	global $baweic_options;
 	$invitation_code = isset( $_POST['invitation_code'] ) ? strtoupper( $_POST['invitation_code'] ) : '';
 	if( !array_key_exists( $invitation_code, $baweic_options['codes'] ) ) {
