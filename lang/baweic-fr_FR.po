@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Easy Invitation Codes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-11 13:13+0100\n"
-"PO-Revision-Date: 2012-06-11 13:13+0100\n"
+"POT-Creation-Date: 2012-08-11 01:23+0100\n"
+"PO-Revision-Date: 2012-08-11 01:24+0100\n"
 "Last-Translator: Juliobox <juliobosk@gmail.com>\n"
 "Language-Team: Juliobox <juliobosk@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -231,6 +231,10 @@ msgstr "Pas encore de codes, <a href=\"admin.php?page=baweic_add_code\">ajoutez-
 msgid "Clear all codes"
 msgstr "Effacer tous les codes"
 
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:351
+msgid "Nobody can register because you did not set any invitation codes, <a href=\"admin.php?page=baweic_add_code\">do it now</a>!"
+msgstr "Personne ne peut s'enregistrer car vous n'avez aucun code, <a href=\"admin.php?page=baweic_add_code\">ajoutez-en un</a> !"
+
 #: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:8
 msgid "Do you want an extra text/link on registration form?"
 msgstr "Désirez-vous un texte/lien en plus sur le formulaire d'enregistrement ?"
@@ -255,11 +259,11 @@ msgstr "Tous les codes générés commenceront avec ça."
 msgid "Invitation Code"
 msgstr "Code invitation"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/front-end.php:24
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/front-end.php:26
 msgid "<strong>ERROR</strong>: Wrong Invitation Code."
 msgstr "<strong>ERREUR</strong> : Code Invitation incorrect"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/front-end.php:27
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/front-end.php:29
 msgid "<strong>ERROR</strong>: This Invitation Code is over."
 msgstr "<strong>ERREUR</strong> : Ce Code Invitation est terminé."
 

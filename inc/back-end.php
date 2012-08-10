@@ -20,7 +20,7 @@ function baweic_admin_menu()
 	// This little trick is here to avoid overwriting an existing menu added by another plugin.
 	global $menu;
 	$pos = null;
-	for( $i=9; i>=0; $i-- ){
+	for( $i=9; $i>=0; $i-- ){
 		if( !isset( $menu[$i] ) ) {
 			$pos = $i;
 			break;
@@ -340,6 +340,11 @@ function baweic_list_codes()
 	</div>
 <?php }
 
+function baweic_admin_notice_noone()
+{
+	echo '<div class="error" id="message"><p>' . __( 'Nobody can register because you did not set any invitation codes, <a href="admin.php?page=baweic_add_code">do it now</a>!', 'baweic' ) . '</p></div>';
+}
+
 function baweic_check_codes()
 {
 	global $baweic_options;
@@ -347,7 +352,9 @@ function baweic_check_codes()
 	foreach( $codes as $code=>$val )
 		if( $val['leftcount'] == 0 )
 			unset( $codes[$code] );
-	if( count( $codes ) == 0 )
-		add_action( 'admin_notices', create_function('', 'echo "<div class=\"error\" id=\"message\"><p>Nobody can register because you did not set any invitation codes, <a href=\"admin.php?page=baweic_add_code\">do it now</a> !</p></div>";' ) );
+	if( count( $codes ) == 0 ):
+		$admin_notice = 
+		add_action( 'admin_notices', 'baweic_admin_notice_noone' );
+	endif;
 }
 add_action( 'admin_head', 'baweic_check_codes' );

@@ -36,6 +36,11 @@ Nothing.
 
 == Changelog ==
 
+= 1.0.3 =
+* 11 aug 2012
+* Add translation
+* Fix notice
+
 = 1.0.2 =
 * 22 jul 2012
 * Bug fix : when a registration was not correct, the code was used! Thanks to davito18 pointing me that!
