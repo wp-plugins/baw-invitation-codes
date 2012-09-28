@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Easy Invitation Codes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-11 01:23+0100\n"
-"PO-Revision-Date: 2012-08-11 01:24+0100\n"
+"POT-Creation-Date: 2012-09-28 16:54+0100\n"
+"PO-Revision-Date: 2012-09-28 16:54+0100\n"
 "Last-Translator: Juliobox <juliobosk@gmail.com>\n"
 "Language-Team: Juliobox <juliobosk@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -16,242 +16,258 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: c:\\Users\\Julio\\Dropbox\\BAW\\plugins\\baw-invitation-codes_repo\\trunk\n"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:13
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:31
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:70
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:94
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:108
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:127
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:251
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:7
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:26
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:65
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:89
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:103
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:122
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:246
 msgid "Add new code"
 msgstr "Ajouter un code"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:30
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:49
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:250
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:25
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:44
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:245
 msgid "Invitation Codes List"
 msgstr "Liste des codes invitations"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:30
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:25
 msgid "Invitation Codes"
 msgstr "Codes invitations"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:32
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:52
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:79
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:102
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:133
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:252
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:27
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:47
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:74
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:97
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:128
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:247
 msgid "Generate codes"
 msgstr "Générer des codes"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:33
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:28
 msgid "Codes list (raw)"
 msgstr "Liste des codes (brute)"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:34
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:29
 msgid "Some options"
 msgstr "Quelques options"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:34
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:29
 msgid "Some Options"
 msgstr "Quelques options"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:35
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:30
 msgid "About"
 msgstr "A propos"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:50
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:77
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:101
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:126
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:45
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:72
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:96
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:121
 msgid "Codes list"
 msgstr "Liste des codes"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:51
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:78
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:46
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:73
 msgid "Add new codes"
 msgstr "Ajouter des codes"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:54
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:49
 msgid "Only not used codes"
 msgstr "Seulement les codes non utilisés"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:59
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:54
 msgid "-- No codes! Add one! --"
 msgstr "-- Aucun code ! Ajoutez en un ! --"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:62
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:57
 msgid "Tips: You can share these codes to allow users to register on your site/blog."
 msgstr "Astuce : Vous pouvez partager ces codes pour permettre aux utilisateurs de s'enregistrer sur votre site/blog."
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:71
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:66
 msgid "Add link"
 msgstr "Ajouter un lien"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:72
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:67
 msgid "Text link"
 msgstr "Texte du lien"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:76
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:71
 msgid "Invitation Codes Settings"
 msgstr "Configuration du plugin"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:95
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:282
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:290
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:90
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:277
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:285
 msgid "Code"
 msgstr "Code"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:96
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:121
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:91
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:116
 msgid "Max count"
 msgstr "Compteur max"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:100
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:95
 msgid "Invitation Codes, add one!"
 msgstr "Codes invitations, ajoutez en un !"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:117
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:112
 msgid "Add auto generated codes"
 msgstr "Ajouter des codes auto générés"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:118
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:113
 msgid "Code prefix"
 msgstr "Préfixe des codes"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:119
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:114
 msgid "Length"
 msgstr "Longueur"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:120
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:115
 msgid "How many codes"
 msgstr "Combien de codes"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:125
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:120
 msgid "Invitation Codes, generate some!"
 msgstr "Codes invitation, générez en quelques uns !"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:147
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:176
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:23
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:142
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:171
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:22
 msgid "How many time this code can be used?"
 msgstr "Combien de fois ce code peut-il être utilisé ?"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:147
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:149
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:151
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:176
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:142
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:144
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:146
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:171
 #, php-format
 msgid " (Minimum %d)"
 msgstr " (Minimum %d)"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:149
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:144
 msgid "Incorrect length."
 msgstr "Longueur incorrecte"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:149
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:144
 #, php-format
 msgid " (Maximum %d)"
 msgstr " (Maximum %d)"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:151
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:37
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:146
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:36
 msgid "How many codes do you need?"
 msgstr "Combien de codes avez-vous besoin ?"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:162
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:157
 #, php-format
 msgid "%d code(s) have been added. <a href=\"%s\">Check the codes list &raquo;</a>"
 msgstr "%d code(s) on été ajouté(s). <a href=\"%s\">Voir la liste des codes &raquo;</a>"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:174
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:169
 #, php-format
 msgid "The code <i>%s</i> already exists. Please choose another one."
 msgstr "Le code <i>%s</i> existe déjà. Merci d'en choisir un autre."
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:178
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:173
 msgid "Empty code ..."
 msgstr "Code vide ..."
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:180
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:175
 #, php-format
 msgid "The code <i>%s</i> have been added. <a href=\"%s\">Check the codes list &raquo;</a>"
 msgstr "Le code <i>%s</i> a été ajouté. <a href=\"%s\">Voir la liste des codes &raquo;</a>"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:202
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:197
 #, php-format
 msgid "Need an invitation code? <a href=\"mailto:%s\">Contact us!</a>"
 msgstr "Besoin d'un code invitation ? <a href=\"mailto:%s\">Contactez-nous !</a>"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:223
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:218
 #, php-format
 msgid "The code <b>%s</b> have been successfully deleted."
 msgstr "Le code <b>%s</b> a été supprimé avec succès."
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:225
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:220
 #, php-format
 msgid "The code <b>%s</b> have not been deleted."
 msgstr "Le code <b>%s</b> n'a pas été supprimé."
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:232
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:227
 msgid "All codes are gone, nobody can register now :("
 msgstr "Tous les codes ont disparu, plus personne ne peut s'enregistrer maintenant :("
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:254
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:249
 #, php-format
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "Résutats pour la recherche &#8220;%s&#8221;"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:276
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:262
+msgid "All"
+msgstr "Tous"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:263
+msgid "Used"
+msgstr "Utilisés"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:264
+msgid "Not used"
+msgstr "Non utililsés"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:271
 msgid "Search codes"
 msgstr "Chercher dans les codes"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:283
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:291
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:278
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:286
 msgid "Counter"
 msgstr "Compteur"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:284
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:292
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:279
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:287
 msgid "User(s)"
 msgstr "Utilisateur(s)"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:285
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:293
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:280
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:288
 msgid "Action"
 msgstr "Action"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:330
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:334
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:319
+msgid "Delete"
+msgstr "Supprimer"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:325
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:329
 msgid "No codes yet, <a href=\"admin.php?page=baweic_add_code\">add one</a>!"
 msgstr "Pas encore de codes, <a href=\"admin.php?page=baweic_add_code\">ajoutez-en un</a>!"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:339
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:334
 msgid "Clear all codes"
 msgstr "Effacer tous les codes"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:351
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/back-end.php:340
 msgid "Nobody can register because you did not set any invitation codes, <a href=\"admin.php?page=baweic_add_code\">do it now</a>!"
 msgstr "Personne ne peut s'enregistrer car vous n'avez aucun code, <a href=\"admin.php?page=baweic_add_code\">ajoutez-en un</a> !"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:8
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:7
 msgid "Do you want an extra text/link on registration form?"
 msgstr "Désirez-vous un texte/lien en plus sur le formulaire d'enregistrement ?"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:16
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:15
 msgid "You can use HTML tags to create links for example."
 msgstr "Vous pouvez utiliser des tags HTML pour créer des liens par exemple."
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:30
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:29
 msgid "Length of generated codes (Min. 4, Max. 16)"
 msgstr "Longueur des codes générés (Min. 4, Max. 16)"
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:44
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:43
 msgid "Avoid bad chars, use A-Z and 0-9."
 msgstr "Evitez les charactères spéciaux, utilisez A-Z et 0-9."
 
-#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:51
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-invitation-codes_repo\trunk/inc/fields.php:50
 msgid "All generated codes will start with this."
 msgstr "Tous les codes générés commenceront avec ça."
 

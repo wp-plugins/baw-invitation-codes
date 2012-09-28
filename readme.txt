@@ -36,6 +36,10 @@ Nothing.
 
 == Changelog ==
 
+= 1.0.4 =
+* 28 sep 2012
+* Fix tranlations problems, thanks to Jacek Wu ( mechlab )
+
 = 1.0.3 =
 * 11 aug 2012
 * Add translation

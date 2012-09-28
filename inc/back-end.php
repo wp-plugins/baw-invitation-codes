@@ -1,11 +1,5 @@
 <?php
 
-function baweic_l10n_init()
-{
-  load_plugin_textdomain( 'baweic', '', dirname( plugin_basename( ___FILE___ ) ) . '/lang' );
-}
-add_action( 'admin_init','baweic_l10n_init' );
-
 include( 'fields.php' );
 
 function baweic_settings_action_links( $links, $file )
@@ -26,6 +20,7 @@ function baweic_admin_menu()
 			break;
 		}
 	}
+	load_plugin_textdomain( 'baweic', '', dirname( plugin_basename( ___FILE___ ) ) . '/lang' );
 	// All my pages
 	add_menu_page( __( 'Invitation Codes List', 'baweic' ), __( 'Invitation Codes', 'baweic' ), 'manage_options', 'baweic_list_codes', 'baweic_list_codes', plugins_url( '/images/icon.png', ___FILE___ ), $pos );
 	add_submenu_page( 'baweic_list_codes', __( 'Add new code', 'baweic' ), __( 'Add new code', 'baweic' ), 'manage_options', 'baweic_add_code', 'baweic_add_code' );
@@ -59,7 +54,7 @@ function baweic_raw_codes()
 		$codes = !empty( $baweic_options['codes'] ) ? implode( "\n", array_keys( $baweic_options['codes'] ) ) : __( '-- No codes! Add one! --', 'baweic' );
 		?>
 		<textarea cols="40" rows="10"><?php echo $codes; ?></textarea>
-		<p><i><?php _e ( 'Tips: You can share these codes to allow users to register on your site/blog.', '' ); ?></i></p>
+		<p><i><?php _e ( 'Tips: You can share these codes to allow users to register on your site/blog.', 'baweic' ); ?></i></p>
 	</div>
 <?php
 }
@@ -264,9 +259,9 @@ function baweic_list_codes()
 		?>
 		</p>
 		<ul class="subsubsub">
-			<li class=""><a class="<?php echo empty( $_GET['status']) && empty( $_GET['s'] ) ? 'current' : ''; ?>" href="<?php echo admin_url( 'admin.php?page=baweic_list_codes' ); ?>">All <span class="count">(<?php echo $counts['all']; ?>)</span></a> |</li>
-			<li class=""><a class="<?php echo !empty( $_GET['status'] ) && $_GET['status']=='used' ? 'current' : ''; ?>" href="<?php echo admin_url( 'admin.php?page=baweic_list_codes&status=used' ); ?>">Used <span class="count">(<?php echo $counts['used']; ?>)</span></a> |</li>
-			<li class=""><a class="<?php echo !empty( $_GET['status'] ) && $_GET['status']=='not_used'  ? 'current' : ''; ?>" href="<?php echo admin_url( 'admin.php?page=baweic_list_codes&status=not_used' ); ?>">Not used <span class="count">(<?php echo $counts['not_used']; ?>)</span></a></li>
+			<li class=""><a class="<?php echo empty( $_GET['status']) && empty( $_GET['s'] ) ? 'current' : ''; ?>" href="<?php echo admin_url( 'admin.php?page=baweic_list_codes' ); ?>"><?php _e( 'All', 'baweic' ); ?> <span class="count">(<?php echo $counts['all']; ?>)</span></a> |</li>
+			<li class=""><a class="<?php echo !empty( $_GET['status'] ) && $_GET['status']=='used' ? 'current' : ''; ?>" href="<?php echo admin_url( 'admin.php?page=baweic_list_codes&status=used' ); ?>"><?php _e( 'Used', 'baweic' ); ?> <span class="count">(<?php echo $counts['used']; ?>)</span></a> |</li>
+			<li class=""><a class="<?php echo !empty( $_GET['status'] ) && $_GET['status']=='not_used'  ? 'current' : ''; ?>" href="<?php echo admin_url( 'admin.php?page=baweic_list_codes&status=not_used' ); ?>"><?php _e( 'Not used', 'baweic' ); ?> <span class="count">(<?php echo $counts['not_used']; ?>)</span></a></li>
 		</ul>
 		<form action="<?php echo admin_url( 'admin.php' ); ?>">
 		<p class="search-box">
@@ -321,7 +316,7 @@ function baweic_list_codes()
 					<td>
 						<div class="activation">
 							<?php $nonce = wp_create_nonce( 'baweic-delete-' . $code ); ?>
-							<span class="trash"><a href="<?php echo admin_url( 'admin.php?page=baweic_list_codes&action=delete&code=' . esc_attr( $code ) . '&_wpnonce=' . $nonce ); ?>">Delete</a></span>
+							<span class="trash"><a href="<?php echo admin_url( 'admin.php?page=baweic_list_codes&action=delete&code=' . esc_attr( $code ) . '&_wpnonce=' . $nonce ); ?>"><?php _e( 'Delete' ); ?></a></span>
 						</div>
 					</td>
 				</tr>

@@ -1,6 +1,5 @@
 <?php
 
-
 function baweic_field_link()
 {
 	global $baweic_fields;

@@ -1,11 +1,11 @@
-<?php
+<?php // 130812
 if ( !defined( 'ABSPATH' ) )
 	die ( 'Please do not access this file directly. Thanks!' );
 ?>
 <div class="postbox" style="display: block;width:325px;float:left;margin:10px;">
 	<h3 class="hndle" style="padding:5px;"><span>About me</span></h3>
 	<div class="inside">
-		<p><img src="http://www.gravatar.com/avatar/<?php echo md5( 'juliobosk'.'@'.'gmail.com' ); ?>" style="float:left;margin-right:10px;"/>
+		<p><img src="http://www.gravatar.com/avatar/<?php echo md5( 'julio'.'bosk'.'@'.'gmail'.'.'.'com' ); ?>" style="float:left;margin-right:10px;"/>
 		<strong>Julio Potier</strong><br />
 		I'm a Web Security Consultant and WordPress Expert. I create plugins every day, i clean Web sites from hackers every day. I'm workaholic!<br />
 		<a href="http://www.boiteaweb.fr" target="_blank" title="BoiteAWeb.fr - WordPress Security Blog"><img src="https://dl.dropbox.com/u/45956904/plugins/bawlogo.png" /></a><br />
@@ -24,6 +24,9 @@ if ( !defined( 'ABSPATH' ) )
 	<h3 class="hndle" style="padding:5px;"><span>Check this plugins too</span></h3>
 	<div class="inside">
 		<ul>
+			<li><a href="http://baw.li/anticsrf">BAW Anti CSRF</a> - <em>Protect your back-end from bad crafted plugin and avoid CSRF vulnerabilities!</em></li>
+			<li><a href="http://baw.li/mpp">BAW Multiple Passwords for Protected Pages</a> - <em>Add more than 1 password for your protected pages, and 2 bonus!</em></li>
+			<li><a href="http://baw.li/ggi">BAW Gravatar Google Image</a> - <em>Add Google Image for default Gravatar photos, use local avatar cache system, and bonus!</em></li>
 			<li><a href="http://baw.li/pvc">BAW Post Views Count</a> - <em>Count views on your posts, pages, CPT. Widget, shortcode included. More than 5000 DL!</em></li>
 			<li><a href="http://baw.li/mrp">BAW Manual Related Posts</a> - <em>Manually choose which posts will be linked to every posts, out auto selection, out random selection, out fake smart selection.!</em></li>
 			<li><a href="http://baw.li/eic">BAW Easy Invitation Codes</a> - <em>Visitors have to enter an invitation code to register on your blog. The easy way!</em></li>

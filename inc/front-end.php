@@ -1,4 +1,7 @@
 <?php
+
+load_plugin_textdomain( 'baweic', 'false', dirname( plugin_basename( ___FILE___ ) ) . '/lang/' );
+
 function baweic_register_form_add_field()
 { 
 	global $baweic_fields, $allowedposttags;
