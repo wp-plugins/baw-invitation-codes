@@ -1,4 +1,4 @@
-=== BAW Easy Invitation Codes ===
+=== Easy Invitation Codes ===
 Contributors: juliobox
 Tags: code, invitation, guest, register
 Requires at least: 3.0
