@@ -11,6 +11,7 @@ Visitors have to enter an invitation code to register on your blog. The easy way
 
 == Description ==
 You want people can register on your blog, but you want to filter them? Create codes, share them, track the codes, track the users. Just easy as it seems! Don't let everyone register ;)
+Check the BuddyPress version in "Developer" tab, made by "mediatricks.com", thanks to you.
 
 == Installation ==
 
@@ -35,6 +36,10 @@ None yet.
 Nothing.
 
 == Changelog ==
+
+= 1.0.4bp =
+* 15 oct 2012
+* Main plugin is still the same, i added a BuddyPress version in "Developer" tab.
 
 = 1.0.4 =
 * 28 sep 2012
