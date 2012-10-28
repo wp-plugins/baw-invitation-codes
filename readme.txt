@@ -2,7 +2,7 @@
 Contributors: juliobox
 Tags: code, invitation, guest, register
 Requires at least: 3.0
-Tested up to: 3.4.1
+Tested up to: 3.4.2
 Stable tag: trunk
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RB7646G6NVPWU
 License: GPLv2
@@ -21,7 +21,8 @@ Check the BuddyPress version in "Developer" tab, made by "mediatricks.com", than
 4. Go to settings !
 
 == Frequently Asked Questions ==
-None yet.
+To know: There is a BuddyPress version created by http://mediatricks.com based on my plugin.
+http://wordpress.org/extend/plugins/baw-invitation-codes/developers/ 
 
 == Screenshots ==
 1. The (cool) menu
