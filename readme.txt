@@ -1,8 +1,8 @@
 === Easy Invitation Codes ===
 Contributors: juliobox
 Tags: code, invitation, guest, register
-Requires at least: 3.0
-Tested up to: 3.4.2
+Requires at least: 3.6
+Tested up to: 4.3
 Stable tag: trunk
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RB7646G6NVPWU
 License: GPLv2
@@ -34,9 +34,17 @@ http://wordpress.org/extend/plugins/baw-invitation-codes/developers/
 1. Raw codes list
 
 == Upgrade Notice ==
-Nothing.
+1.1+ requires 3.6
+<1.1 requires 3.1
 
 == Changelog ==
+
+= 1.1 =
+* 11 aug 2015
+* 4.3 support
+* Code imp
+* Use sanitize_key on codes now
+* Fix notices
 
 = 1.0.4bp =
 * 15 oct 2012
@@ -57,7 +65,7 @@ Nothing.
 
 = 1.0.1 =
 * 29 jun 2012
-* Fix a link bug for front end side, thakns to mborin (wp member)
+* Fix a link bug for front end side, thanks to mborin (wp member)
 
 = 1.0 =
 * 11 jun 2012
