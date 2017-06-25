@@ -150,7 +150,7 @@ function baweic_fields_cb2( $val ) {
 function baweic_fields_cb( $val ) {
 	$baweic_options = get_option( 'baweic_options' );
 
-	$code = trim( strtoupper( sanitize_key( $val ) ) );
+	$code = trim( strtoupper( sanitize_text_field( $val ) ) );
 	$count = isset( $_POST['baweic_field_count'] ) ? (int)$_POST['baweic_field_count'] : 1;
 	if( isset( $baweic_options['codes'][$code] ) ):
 		add_settings_error( 'baweic', '', sprintf( __( 'The code <i>%s</i> already exists. Please choose another one.', 'baweic' ), esc_html( $code ) ), 'error' );
@@ -169,7 +169,7 @@ function create_invitation_code( $code, $count = 1 ) {
 	$baweic_options = get_option( 'baweic_options' );
 
 	$count = (int) $count>0 ? $count : 1;
-	$code = sanitize_key( $code );
+	$code = sanitize_text_field( $code );
 	if ( isset( $baweic_options['codes'][ $code ] ) || ! trim( $code ) ) {
 		return false;
 	} else {
