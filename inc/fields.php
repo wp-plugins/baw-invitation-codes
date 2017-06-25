@@ -6,7 +6,7 @@ function baweic_field_link() {
 ?>
 	<label><input type="checkbox" name="baweic_fields[link]" <?php checked( $baweic_fields['link'], 'on' ); ?>/> <em><?php _e( 'Do you want an extra text/link on registration form?', 'baweic' ); ?></em></label>
 <?php
-}	
+}
 
 function baweic_field_text_link() {
 	$baweic_fields = get_option( 'baweic_fields' );
@@ -29,7 +29,7 @@ function baweic_field_length() {
 
 function baweic_field_howmany() {
 ?>
-	<input type="number" size="3" min="1" max="10" name="baweic_field_howmany" value="5" /> <em><?php _e( 'How many codes do you need?', 'baweic' ); ?></em>
+	<input type="number" size="3" min="1" max="999" name="baweic_field_howmany" value="5" /> <em><?php _e( 'How many codes do you need?', 'baweic' ); ?></em>
 <?php
 }
 

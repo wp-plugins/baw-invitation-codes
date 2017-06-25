@@ -1,0 +1,100 @@
+[33mcommit 65f112b82a9dd62163da20887e5df94a374fc276[m
+Author: Nacho Althabe <nacho.althabe@gmail.com>
+Date:   Wed Nov 16 22:00:47 2016 -0300
+
+    Increase maximum code generation to 999. Is simple and very useful
+
+[33mcommit 9400a1ac5100ae390380e5ed038cfb5c3de30810[m
+Author: Nacho Althabe <nacho.althabe@gmail.com>
+Date:   Wed Nov 16 21:54:26 2016 -0300
+
+    Fix issue with sanatize function. I can't remove code "INVITATION" because sanitize_key convert string to lower case and not match with real string.
+    sanitize_text_field function do same think but works.
+
+[33mcommit e7af72ffdee67d12b959f6d5dcfd272c917782b2[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Tue Aug 11 22:26:30 2015 +0000
+
+    v1.1
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@1218639 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit 3496276c945e0c85372b511c11e003b51dc0527e[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Sun Oct 28 21:03:59 2012 +0000
+
+    faq update
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@618406 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit f115907940551087e62004f0128c56950c99bebf[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Mon Oct 15 21:07:43 2012 +0000
+
+    1.0.4bp
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@612937 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit a5b71acb94299637af5c752e45b149f878a1fa2f[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Fri Oct 12 14:46:38 2012 +0000
+
+    -BAW
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@611537 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit 3f73df58ec6206c3e9959b82995eba96c4e8c9b4[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Fri Sep 28 15:00:07 2012 +0000
+
+    1.0.4
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@605263 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit 0e0de363fcd28ecf71e222524e1ebede6a759d36[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Thu Sep 27 07:17:25 2012 +0000
+
+    Moved to assets
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@604521 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit 82b904157a95896276fe652d6f0e508c62b209df[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Fri Aug 10 23:55:34 2012 +0000
+
+    1.0.3
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@584094 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit 5463dba8148fcc1c3d31153af27d6fdd70e6a6df[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Sat Jul 21 23:56:47 2012 +0000
+
+    1.0.2
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@575577 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit d45c9e816128260fb80e6cff192b886c4ba95a94[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Fri Jun 29 09:51:19 2012 +0000
+
+    1.0.1
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@565349 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit bb7d67b9a284a3b834b9bb4d35dbe9608308e597[m
+Author: juliobox <juliobox@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Mon Jun 11 12:56:17 2012 +0000
+
+    1.0
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@556102 b8457f37-d9ea-0310-8a92-e5e31aec5664
+
+[33mcommit a74121fce6557818cb55d12508a76d707f1d062b[m
+Author: plugin-master <plugin-master@b8457f37-d9ea-0310-8a92-e5e31aec5664>
+Date:   Mon Jun 11 01:34:20 2012 +0000
+
+    adding baw-invitation-codes by juliobox
+    
+    git-svn-id: https://plugins.svn.wordpress.org/baw-invitation-codes/trunk@555881 b8457f37-d9ea-0310-8a92-e5e31aec5664
